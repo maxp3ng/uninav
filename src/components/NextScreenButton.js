@@ -1,10 +1,11 @@
 import React from "react";
+import waterdrop from '../assets/img/waterdrop_down.png'
 
-export default function NextScreenButton(){
+export default function NextScreenButton({screenIncrement}){
 
     return(
-                    <h1 className="text-3xl font-bold underline ">
-                        Hello world!
-                    </h1>
+        <div className="flex align-center justify-center text-center" >
+            <img className='w-24' onClick={screenIncrement} src={waterdrop} role="button"/>
+        </div>
     );
 }
