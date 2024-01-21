@@ -4,7 +4,7 @@ import DecorationBg from './DecorationBg.js';
 import Screen1 from './Screen1.js';
 import ScreenGarden from './ScreenGarden.js';
 import ScreenGenerate from './ScreenGenerate.js';
-
+import ScreenInput from './ScreenInput.js';
 
 export default function ScreenControl(){
     const [screen, setScreen] = useState(0);
